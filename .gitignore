@@ -1,0 +1,45 @@
+# Release binaries belong to GitHub Release assets, never Git commits.
+*.dmg
+*.zip
+*.blockmap
+beta-mac.yml
+builder-debug.yml
+
+# Signing, notarization, and provisioning material.
+*.p8
+*.p12
+*.pfx
+*.cer
+*.key
+*.pem
+*.mobileprovision
+*.provisionprofile
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+*.token
+*.secret
+auth.json
+credentials.json
+
+# Runtime, diagnostics, and user data.
+*.log
+*.sqlite
+*.sqlite-*
+*.db
+*.dSYM/
+*.map
+*.har
+*.trace
+*.cpuprofile
+*.heapsnapshot
+crashpad/
+logs/
+
+# Local operating-system and tooling state.
+.DS_Store
+.idea/
+.vscode/
+node_modules/
