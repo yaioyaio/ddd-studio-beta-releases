@@ -43,3 +43,11 @@ logs/
 .idea/
 .vscode/
 node_modules/
+
+# Registry auth · SSH 자격 (2026-08-20 보강)
+.npmrc
+!.npmrc.example
+id_rsa*
+id_ed25519*
+id_ecdsa*
+known_hosts
